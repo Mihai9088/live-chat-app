@@ -94,9 +94,9 @@ const ChatLayout = ({ children }) => {
 
     return (
         <>
-            <div className="flex-1 w-full flex overflow-hidden">
+            <div className="flex-1 w-full flex overflow-hidden scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-gray-900">
                 <div className="transition-all w-full sm:w-[220px] md:w-[300px] bg-slate-800 flex flex-col overflow-hidden ${ selectedConversation ? '-ml-[100%] sm:ml-0' : ''}">
-                    <div className="flex items-center justify-between px-3 py-2 text-xl font-medium">
+                    <div className="flex items-center justify-between px-3 py-2 text-xl font-medium text-gray-200">
                         My Conversations
                         <div
                             className="tooltip tooltip-left"
